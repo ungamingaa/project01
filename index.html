@@ -27,84 +27,183 @@
     <main>
         <div>
             <h1>Discover the most engaging places</h1>
-            <button type="button" name="Discover on 3D GLobe"></button>
+            <button type="submit" value="Discover on 3D GLobe"></button>
+            <label><input type="submit" value="Показать результаты поиска" /></label>
         </div>
         <div>
             <form>
-                <p>
-                    <label for="Location">Location</label>
-                    <input list="Locations" placeholder="Explire nearby destinations"  />
-                    <datalist id="Locations">
+                <div>
+                    <div>
+                        <label for="Location">Location</label>
+                        <input list="Locations" placeholder="Explire nearby destinations"  />
+                        <datalist id="Locations">
                         <option>Some Option</option>
                         <option>Some Option</option>
                         <option>Some Option</option>
                     </datalist>
-                    <label for="Activity">Activity</label>
-                    <input list="Activities" placeholder="All Activities"  />
-                    <datalist id="Activities">
+                    </div>
+                    <div>
+                        <label for="Activity">Activity</label>
+                        <input list="Activities" placeholder="All Activities"  />
+                        <datalist id="Activities">
                         <option>Some Activity</option>
                         <option>Some Activity</option>
                         <option>Some Activity</option>
                     </datalist>
-                    <label for="Date">When</label>
-                    <input type="date" id="Date" placeholder="Choose a Date" />
-                    <label for="Guests">Guests</label>
-                    <select id="Guests">
+                    </div>
+                    <div>
+                        <label for="Date">When</label>
+                        <input type="date" id="Date" placeholder="Choose a Date" />
+                    </div>
+                    <div>
+                        <label for="Guests">Guests</label>
+                        <select id="Guests">
                         <option>1 Guest</option>
                         <option>2 Guests</option>
                         <option>3 Guests</option>
                         <option>4 Guests</option>
                     </select>
-                    <laber for="search"></laber>
-                    <input type="submit" id="search" value="" />
-                </p>
+                    </div>
+                    <div>
+                        <laber for="search"></laber>
+                        <input type="submit" id="search" value="" />
+                    </div>
+                </div>
             </form>
         </div>
     </main>
     <div>
-        <h2>Popular Destinations</h2>
         <div>
-            <p>
-                <img src="./content/img/img1.png" alt="Big Sur" />
-                <h3>Big Sur</h3>
-                California, USA
-            </p>
+            <h2>Popular Destinations</h2>
         </div>
         <div>
-            <p>
-                <img src="./content/img/img2.png" alt="Prescott" />
-                <h3>Prescott</h3>
-                Arizona, USA
-            </p>
+            <div>
+                <a href="#"><img src="./content/img/img1_block1.png" alt="Big Sur" /></a>
+                <div>
+                    <a href=""><h3>Big Sur</h3></a>
+                    <p>California, USA</p>
+                </div>
+            </div>
         </div>
         <div>
-            <p>
-                <img src="./content/img/img3.png" alt="Fort Mayers" />
-                <h3>Fort Mayers</h3>
-                Florida, USA
-            </p>
+            <div>
+                <a href="#"><img src="./content/img/img2_block1.png" alt="Prescott" /></a>
+                <div>
+                    <a href=""><h3>Prescott</h3></a>
+                    <p>Arizona, USA</p>
+                </div>
+            </div>
         </div>
         <div>
-            <p>
-                <img src="./content/img/img4.png" alt="Tucson" />
-                <h3>Tucson</h3>
-                Arizona, USA
-            </p>
+            <div>
+                <a href="#"><img src="./content/img/img3_block1.png" alt="Fort Mayers" /></a>
+                <div>
+                    <a href=""><h3>Fort Mayers</h3></a>
+                    <p>Florida, USA</p>
+                </div>
+            </div>
         </div>
         <div>
-            <p>
-                <img src="./content/img/img5.png" alt="St. Joseph" />
-                <h3>St. Joseph</h3>
-                Michigan, USA
-            </p>
+            <div>
+                <a href="#"><img src="./content/img/img4_block1.png" alt="Tucson" /></a>
+                <div>
+                    <a href=""><h3>Tucson</h3></a>
+                    <p>Arizona, USA</p>
+                </div>
+            </div>
         </div>
         <div>
-            <p>
-                <img src="./content/img/img6.png" alt="Madrid" />
-                <h3>Madrid</h3>
-                Spain
-            </p>
+            <div>
+                <a href="#"><img src="./content/img/img5_block1.png" alt="St. Joseph" /></a>
+                <div>
+                    <a href=""><h3>St. Joseph</h3></a>
+                    <p>Michigan, USA</p>
+                </div>
+            </div>
         </div>
+        <div>
+            <div>
+                <a href="#"><img src="./content/img/img6_block1.png" alt="Madrid" /></a>
+                <div>
+                    <a href=""><h3>Madrid</h3></a>
+                    <p>Spain</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h2>Hotels and Restaurants</h2>
+            <laber for="Viewall"></laber>
+            <input type="submit" id="Viewall" value="View all" />
+        </div>
+        <div>
+            <div>
+                <a href="#"><img src="./content/img/img1_block2.png" alt="Monastero Santa Rosa Hotel & Spa" /></a>
+            </div>
+            <div>
+                <h3>Monastero Santa Rosa Hotel & Spa</h3>
+            </div>
+            <div>
+                <a href=""><img src="" alt="" />Salerno, Italy</a>
+                <label for="rating"></label>
+                <input type="range" id="rating" name="" min="1" max="5" step="1">
+            </div>
+        </div>
+        <div>
+            <div>
+                <a href="#"><img src="./content/img/img2_block2.png" alt="Grand Hotel Tremezzo" /></a>
+            </div>
+            <div>
+                <a href="#"><h3>Grand Hotel Tremezzo</h3></a>
+            </div>
+            <div>
+                <a href=""><img src="" alt="" />Lake Como, Italy</a>
+                <label for="rating"></label>
+                <input type="range" id="rating" name="" min="1" max="5" step="1">
+            </div>
+        </div>
+        <div>
+            <div>
+                <a href="#"><img src="./content/img/img3_block2.png" alt="The Oberoi Udaivilas, Udaipur" /></a>
+            </div>
+            <div>
+                <a href="#"><h3>The Oberoi Udaivilas, Udaipur</h3></a>
+            </div>
+            <div>
+                <a href="#"><img src="" alt="" />Udaipur, India</a>
+                <label for="rating"></label>
+                <input type="range" id="rating" name="" min="1" max="5" step="1">
+            </div>
+        </div>
+        <div>
+            <div>
+                <a href="#"><img src="./content/img/img4_block2.png" alt="AKA Beverly Hills" /></a>
+            </div>
+            <div>
+                <a href="#"><h3>AKA Beverly Hills</h3></a>
+            </div>
+            <div>
+                <a href="#"><img src="" alt="" />Los Angeles, United States</a>
+                <label for="rating"></label>
+                <input type="range" id="rating" name="" min="1" max="5" step="1">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h2>Travel Tips and Advice</h2>
+            <laber for="Viewall"></laber>
+            <input type="submit" id="Viewall" value="View all" />
+        </div>
+        <article>
+            <div>
+                <img src="" alt="" />
+                <h3>East Village Ice Cream Crawl</h3>
+                We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each ice cream store we'll explore the story behind the business and see what makes the ice cream unique as you savor every…
+                <time class="" datetime="2022-09-11 12:00">Today</time>
+            </div>
+        </article>
     </div>
 </body>
 </html>
