@@ -5,72 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    
+
 </head>
 <body>
     <header>
-        <a href="#">2rism</a>
-        <nav>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">Hotels</a></li>
-                <li><a href="#">Restaurants</a></li>
-                <li><a href="#">Tours</a></li>
-                <li><a href="#">Destinations</a></li>
-                <li><a href="#">Activities</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
         <div>
-            <p>Hola,</p>
+            <div>
+                <div>
+                    <a href="#"><img src="./content/site-logo/2rism-logo-header.png" alt="2rism" /></a>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">Hotels</a></li>
+                            <li><a href="#">Restaurants</a></li>
+                            <li><a href="#">Tours</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Activities</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <p>Hola,</p>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <div>
-            <h1>Discover the most engaging places</h1>
-            <button type="submit" value="Discover on 3D GLobe"></button>
-            <!-- <label><input type="submit" value="Показать результаты поиска" /></label> РЕШИТЬ ВОПРОС С КНОПКОЙ -->
-        </div>
-        <div>
-            <form>
-                <div>
+        <div class="main-section">
+            <div>
+                <h1>Discover the most engaging places</h1>
+                <button type="submit" value="Discover on 3D GLobe"></button>
+                <!-- <label><input type="submit" value="Показать результаты поиска" /></label> РЕШИТЬ ВОПРОС С КНОПКОЙ -->
+            </div>
+            <div>
+                <form>
                     <div>
-                        <label for="Location">Location</label>
-                        <input list="Locations" placeholder="Explire nearby destinations"  />
-                        <datalist id="Locations">
-                        <option>Some Option</option>
-                        <option>Some Option</option>
-                        <option>Some Option</option>
-                    </datalist>
+                        <div>
+                            <label for="Location">Location</label>
+                            <input list="Locations" placeholder="Explire nearby destinations"  />
+                            <datalist id="Locations">
+                            <option>Some Option</option>
+                            <option>Some Option</option>
+                            <option>Some Option</option>
+                        </datalist>
+                        </div>
+                        <div>
+                            <label for="Activity">Activity</label>
+                            <input list="Activities" placeholder="All Activities"  />
+                            <datalist id="Activities">
+                            <option>Some Activity</option>
+                            <option>Some Activity</option>
+                            <option>Some Activity</option>
+                        </datalist>
+                        </div>
+                        <div>
+                            <label for="Date">When</label>
+                            <input type="date" id="Date" placeholder="Choose a Date" />
+                        </div>
+                        <div>
+                            <label for="Guests">Guests</label>
+                            <select id="Guests">
+                            <option>1 Guest</option>
+                            <option>2 Guests</option>
+                            <option>3 Guests</option>
+                            <option>4 Guests</option>
+                        </select>
+                        </div>
+                        <div>
+                            <laber for="search"></laber>
+                            <input type="submit" id="search" value="" />
+                            <!-- РЕШИТЬ ВОПРОС С КНОПКОЙ -->
+                        </div>
                     </div>
-                    <div>
-                        <label for="Activity">Activity</label>
-                        <input list="Activities" placeholder="All Activities"  />
-                        <datalist id="Activities">
-                        <option>Some Activity</option>
-                        <option>Some Activity</option>
-                        <option>Some Activity</option>
-                    </datalist>
-                    </div>
-                    <div>
-                        <label for="Date">When</label>
-                        <input type="date" id="Date" placeholder="Choose a Date" />
-                    </div>
-                    <div>
-                        <label for="Guests">Guests</label>
-                        <select id="Guests">
-                        <option>1 Guest</option>
-                        <option>2 Guests</option>
-                        <option>3 Guests</option>
-                        <option>4 Guests</option>
-                    </select>
-                    </div>
-                    <div>
-                        <laber for="search"></laber>
-                        <input type="submit" id="search" value="" />
-                        <!-- РЕШИТЬ ВОПРОС С КНОПКОЙ -->
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     <div>
         <div>
