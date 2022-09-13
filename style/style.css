@@ -1,0 +1,15 @@
+.header-block {
+    width: 1376px;
+    height: 48px;
+    margin: 0 auto;
+    background: red;
+}
+
+.main-section {
+    width: 100vh;
+}
+
+.semibold {
+    font-family: 'Poppins', sans-serif;
+    font-style: semibold;
+}
