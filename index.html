@@ -4,25 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master TAO cargo</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Learning: Appeal to page elements through selectors" />
+    <meta name="keywords" content="selectors, class, id, investigation" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/cargo_favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/cargo_favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/cargo_favicon.svg">
+    <link rel="mask-icon" href="./img/cargo_favicon.svg" color="#fff">
+    <meta name="og:url" content="#" /> <!--Domain site url-->
+    <meta name="og:title" content="Master TAO cargo" />
+    <meta name="og:description" content="Master TAO cargo website" />
+    <meta name="og:type" content="article" />
+    <meta name="og:image" content="./img/header_bg.png" />
+    <meta property="og:image:width" content="350" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:image:alt" content="selector" />
     <title>Document</title>
 
     <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/style.css" />
+    
     
 
 </head>
 <body>
-    <header class="header-block">
-        <div>
-            <a href="#"><img src="./content/site-logo/2rism-logo-header.png" alt="2rism" /></a>
-        </div>
-            <div>
-                <nav>
+    <header>
+        <div class="container">
+
+            <div class="header">
+                <a href="#" class="header-logo fl">
+                    <img src="./content/site-logo/2rism-logo-header.png" alt="2rism" />
+                </a>
+                
+                <nav class="header-menu fl">
                     <ul>
-                        <li><a href="#">home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="#">Hotels</a></li>
                         <li><a href="#">Restaurants</a></li>
                         <li><a href="#">Tours</a></li>
@@ -32,385 +54,11 @@
                     </ul>
                 </nav>
             </div>
-            <div>
-                <p>Hola,</p>
-            </div>
+
+            <!-- пользователь -->
+        </div>
     </header>
-    <main>
-        <div class="main-section">
-            <div>
-                <h1 class="semibold">Discover the most engaging places</h1>
-                <button type="submit" value="Discover on 3D GLobe"></button>
-                <!-- <label><input type="submit" value="Показать результаты поиска" /></label> РЕШИТЬ ВОПРОС С КНОПКОЙ -->
-            </div>
-            <div>
-                <form>
-                    <div>
-                        <div>
-                            <label for="Location">Location</label>
-                            <input list="Locations" placeholder="Explire nearby destinations"  />
-                            <datalist id="Locations">
-                            <option>Some Option</option>
-                            <option>Some Option</option>
-                            <option>Some Option</option>
-                        </datalist>
-                        </div>
-                        <div>
-                            <label for="Activity">Activity</label>
-                            <input list="Activities" placeholder="All Activities"  />
-                            <datalist id="Activities">
-                            <option>Some Activity</option>
-                            <option>Some Activity</option>
-                            <option>Some Activity</option>
-                        </datalist>
-                        </div>
-                        <div>
-                            <label for="Date">When</label>
-                            <input type="date" id="Date" placeholder="Choose a Date" />
-                        </div>
-                        <div>
-                            <label for="Guests">Guests</label>
-                            <select id="Guests">
-                            <option>1 Guest</option>
-                            <option>2 Guests</option>
-                            <option>3 Guests</option>
-                            <option>4 Guests</option>
-                        </select>
-                        </div>
-                        <div>
-                            <laber for="search"></laber>
-                            <input type="submit" id="search" value="" />
-                            <!-- РЕШИТЬ ВОПРОС С КНОПКОЙ -->
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    <div>
-        <div>
-            <h2>Popular Destinations</h2>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block1_img1.png" alt="Big Sur" /></a>
-                <div>
-                    <a href=""><h3>Big Sur</h3></a>
-                    <p>California, USA</p>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block1_img2.png" alt="Prescott" /></a>
-                <div>
-                    <a href=""><h3>Prescott</h3></a>
-                    <p>Arizona, USA</p>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block1_img3.png" alt="Fort Mayers" /></a>
-                <div>
-                    <a href=""><h3>Fort Mayers</h3></a>
-                    <p>Florida, USA</p>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block1_img4.png" alt="Tucson" /></a>
-                <div>
-                    <a href=""><h3>Tucson</h3></a>
-                    <p>Arizona, USA</p>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block1_img5.png" alt="St. Joseph" /></a>
-                <div>
-                    <a href=""><h3>St. Joseph</h3></a>
-                    <p>Michigan, USA</p>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block1_img6.png" alt="Madrid" /></a>
-                <div>
-                    <a href=""><h3>Madrid</h3></a>
-                    <p>Spain</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <h2>Hotels and Restaurants</h2>
-            <laber for="Viewall"></laber>
-            <input type="submit" id="Viewall" value="View all" />
-            <!-- РЕШИТЬ ВОПРОС С КНОПКОЙ  -->
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block2_img1.png" alt="Monastero Santa Rosa Hotel & Spa" /></a>
-            </div>
-            <div>
-                <h3>Monastero Santa Rosa Hotel & Spa</h3>
-            </div>
-            <div>
-                <a href=""><img src="" alt="" />Salerno, Italy</a>
-                <label for="rating"></label>
-                <input type="range" id="rating" name="" min="1" max="5" step="1">
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block2_img2.png" alt="Grand Hotel Tremezzo" /></a>
-            </div>
-            <div>
-                <a href="#"><h3>Grand Hotel Tremezzo</h3></a>
-            </div>
-            <div>
-                <a href=""><img src="" alt="" />Lake Como, Italy</a>
-                <label for="rating"></label>
-                <input type="range" id="rating" name="" min="1" max="5" step="1">
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block2_img3.png" alt="The Oberoi Udaivilas, Udaipur" /></a>
-            </div>
-            <div>
-                <a href="#"><h3>The Oberoi Udaivilas, Udaipur</h3></a>
-            </div>
-            <div>
-                <a href="#"><img src="" alt="" />Udaipur, India</a>
-                <label for="rating"></label>
-                <input type="range" id="rating" name="" min="1" max="5" step="1">
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="./content/img/block2_img4.png" alt="AKA Beverly Hills" /></a>
-            </div>
-            <div>
-                <a href="#"><h3>AKA Beverly Hills</h3></a>
-            </div>
-            <div>
-                <a href="#"><img src="" alt="" />Los Angeles, United States</a>
-                <label for="rating"></label>
-                <input type="range" id="rating" name="" min="1" max="5" step="1">
-            </div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <h2>Travel Tips and Advice</h2>
-            <laber for="Viewall"></laber>
-            <input type="submit" id="Viewall" value="View all" />
-            <!-- РЕШИТЬ ВОПРОС С КНОПКОЙ -->
-        </div>
-        <article>
-            <div>
-                <div>
-                    <a href="#"><img src="./content/img/block3_img1.png" alt="" /></a>
-                </div>
-                <div>
-                    <a href=""><h3>East Village Ice Cream Crawl</h3></a>
-                </div>
-                <div>
-                    <p>
-                        We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each ice cream store we'll explore the story behind the business and see what makes the ice cream unique as you savor every…
-                    </p>
-                </div>
-                <div>
-                    <span>
-                        <img src="" alt="" />
-                        <span>
-                            <time class="" datetime="2022-09-11 12:00">Today</time>
-                        </span>
-                    </span>
-                    <span>
-                        <img src="" alt="" />
-                        <span>
-                            <!-- ИМЯ ПОЛЬЗОВАТЕЛЯ -->
-                        </span>
-                    </span>
-                    <span>
-                        <img src="" alt="" />
-                        <span>
-                            <!-- КОЛ-ВО КОММЕНТОВ -->
-                        </span>
-                    </span>
-                </div>
-            </div>
-        </article>
-        <article>
-            <div>
-                <div>
-                    <a href="#"><img src="./content/img/block3_img2.png" alt="" /></a>
-                </div>
-                <div>
-                    <a href=""><h3>Brooklyn Bridge cinematic photo walk</h3></a>
-                </div>
-                <div>
-                    <p>
-                        This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to capture clients at different locations upon request for an additional charge. 
-                    </p>
-                </div>
-                <div>
-                    <span>
-                        <img src="" alt="" />
-                        <span>
-                            <time class="" datetime="2022-09-11 12:00">Today</time>
-                        </span>
-                    </span>
-                    <span>
-                        <img src="" alt="" />
-                        <span>
-                            <!-- ИМЯ ПОЛЬЗОВАТЕЛЯ -->
-                        </span>
-                    </span>
-                    <span>
-                        <img src="" alt="" />
-                        <span>
-                            <!-- КОЛ-ВО КОММЕНТОВ -->
-                        </span>
-                    </span>
-                </div>
-            </div>
-        </article>
-    </div>
-    <div>
-        <div>
-            <h2>Activities</h2>
-            <laber for="Viewall"></laber>
-            <input type="submit" id="Viewall" value="View all" />
-            <!-- РЕШИТЬ ВОПРОС С КНОПКОЙ -->
-        </div>
-        <div>
-            <div>
-                <a href=""><img src="./content/img/block4_img1.png" alt="Sailing" /></a>
-            </div>
-            <div>
-                <a href=""><h3>Sailing</h3></a>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href=""><img src="./content/img/block4_img2.png" alt="Climbing" /></a>
-            </div>
-            <div>
-                <a href=""><h3>Climbing</h3></a>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href=""><img src="./content/img/block4_img3.png" alt="Skiing" /></a>
-            </div>
-            <div>
-                <a href=""><h3>Skiing</h3></a>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href=""><img src="./content/img/block4_img4.png" alt="Hiking" /></a>
-            </div>
-            <div>
-                <a href=""><h3>Hiking</h3></a>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            <laber for="Readmore"></laber>
-            <input type="submit" id="Readmore" value="Read more" />
-        </div>
-        <div>
-            <img src="./content/img/block5_img1.png" alt="" />
-        </div>
-    </div>
-    </main>
-    <footer>
-        <div>
-            <div>
-                <a href="#">2rism<img src="" alt="" /></a>
-            </div>
-            <div>
-                <p>We always make our customers happy by providing as many choises as possible</p>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#" target="_blank" title="Наш Facebook">
-                            <span>Наша страница в Facebook</span>
-                            <svg>
-                                <path></path>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank" title="Наш Twitter">
-                            <span>Наша страница в Twitter</span>
-                            <svg>
-                                <path></path>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank" title="Наш Instagram">
-                            <span>Наша профиль в Instagram</span>
-                            <svg>
-                                <path></path>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <h3>About</h3>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Menu</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Company</h3>
-            <ul>
-                <li><a href="#">Why 2rism</a></li>
-                <li><a href="#">Partner With Us</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Support</h3>
-            <ul>
-                <li><a href="#">Account</a></li>
-                <li><a href="#">Support Center</a></li>
-                <li><a href="#">Feedback</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Subscribe on our destination review newsletters</h3>
-            <div>
-                <label for="Email">Your Email</label>
-                <img src="" alt="" />
-                <input type="email" id="Email" placeholder="Enter Your Email" />
-            </div>
-            <div>
-                <label for="submit"></label>
-                <input type="submit" id="submit" value="">
-            </div>
-        </div>
-    </footer>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
