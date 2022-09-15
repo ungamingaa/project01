@@ -70,3 +70,427 @@ body {
     width: 90px;
     height: 50px;
 }
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 863px;
+    height: 166px;
+    left: calc(50% - 863px/2 + 0.5px);
+    top: calc(50% - 166px/2 - 55px);
+}
+
+
+.main-block h1 {
+    width: 100%;
+    max-width: 863px;
+    height: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    padding: 32px;
+}
+
+.main-botton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+    width: 273px;
+    height: 72px;
+    background: #7B61FF;
+    border-radius: 12px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main-botton img {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-botton label {
+    width: 193px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.main-bottom-hover
+.main-botton:hover {
+    background: #F6F4FF;
+}
+.main-botton label:hover {
+    color: #5243C2;
+}
+
+.main-block-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    position: absolute;
+    width: 1140px;
+    height: 88px;
+    left: 390px;
+    top: 612px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+form img {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+.main-block-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    width: 300px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-block-location-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    width: 224px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.main-block-location-form label {
+    width: 59px;
+    height: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-block-location-form input {
+    width: 224px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-block-activity {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+width: 254.67px;
+height: 72px;
+
+background: #FFFFFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 1;
+}
+
+.main-block-activity-form {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 97px;
+height: 40px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.main-block-activity-form label {
+    width: 50px;
+height: 16px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.main-block-activity-form input {
+    width: 97px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.main-block-when {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+width: 254.67px;
+height: 72px;
+
+background: #FFFFFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 1;
+}
+
+.main-block-when-form {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 119px;
+height: 40px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.main-block-when-form label {
+    width: 40px;
+height: 16px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #5B5B5B;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.main-block-when-form input {
+    width: 119px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #161414;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.main-block-guest {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+width: 254.67px;
+height: 72px;
+
+background: #FFFFFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 6;
+flex-grow: 1;
+}
+
+.main-block-guest-form {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 56px;
+height: 40px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.main-block-guest-form label {
+    width: 48px;
+height: 16px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.main-block-guest-form select {
+    width: 56px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.main-block-search-botton {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px;
+gap: 8px;
+
+width: 60px;
+height: 60px;
+
+background: #7B61FF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 7;
+flex-grow: 0;
+}
+
+.main-block-search-botton img {
+    width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}

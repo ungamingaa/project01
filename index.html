@@ -58,7 +58,61 @@
             <!-- пользователь -->
         </div>
     </header>
-    <main></main>
+    <main>
+
+        <div class="main-block">
+            <h1>Discover the most engaging places</h1>
+            <button class="main-botton" id="main-botton"><img src="./content/icons/Group.svg" alt="" /><label for="main-botton">Discover on 3D Globe</label></button>
+        </div>
+
+        <form class="main-block-form">
+            <div class="main-block-location">
+                <img src="./content/icons/location.svg" alt="" />
+                <div class="main-block-location-form">
+                    <label for="Location">Location</label>
+                    <input id="Location" list="Locations" placeholder="Explire nearby destinations"  />
+                    <datalist id="Locations">
+                        <option>Some Option</option>
+                        <option>Some Option</option>
+                        <option>Some Option</option>
+                    </datalist>
+                </div>
+            </div>
+            <div class="main-block-activity">
+                <img src="./content/icons/activity.svg" alt="" />
+                <div class="main-block-activity-form">
+                    <label for="Activity">Activity</label>
+                    <input id="Activity" list="Activities" placeholder="All Activities"  />
+                    <datalist id="Activities">
+                        <option>Some Activity</option>
+                        <option>Some Activity</option>
+                        <option>Some Activity</option>
+                    </datalist>
+                </div>
+            </div>
+            <div class="main-block-when">
+                <img src="./content/icons/date.svg" alt="" />
+                <div class="main-block-when-form">
+                    <label for="When">When</label>
+                    <input type="date" id="When" placeholder="Choose a Date" />
+                </div>
+            </div>
+            <div class="main-block-guest">
+                <img src="./content/icons/guest.svg" alt="" />
+                <div class="main-block-guest-form">
+                    <label for="Guests">Guests</label>
+                    <select id="Guests">
+                        <option>1 Guest</option>
+                        <option>2 Guests</option>
+                        <option>3 Guests</option>
+                        <option>4 Guests</option>
+                    </select>
+                </div>
+            </div>
+            <botton class="main-block-search-botton"><img src="./content/icons/search-botton.svg" alt="" /></botton>
+        </form>
+        
+    </main>
     <footer></footer>
 </body>
 </html>
